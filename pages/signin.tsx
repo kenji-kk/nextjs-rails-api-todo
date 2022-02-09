@@ -1,15 +1,16 @@
 import React from 'react';
 import CommonLayout from '../components/layouts/CommonLayout';
 import { Unprivate }  from '../components/layouts/Unprivate';
+import SignIn from '../components/pages/Signin';
 
-const singin = () => {
+const signin = () => {
   return (
     <Unprivate>
       <CommonLayout>
-          <div>サインインしてください</div>
+          <SignIn />
       </CommonLayout>
     </Unprivate>
   );
 };
 
-export default singin;
+export default signin;
